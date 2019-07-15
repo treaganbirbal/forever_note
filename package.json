@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/treaganbirbal/forever_note/issues"
   },
-  "homepage": "https://github.com/treaganbirbal/forever_note#readme"
+  "homepage": "https://github.com/treaganbirbal/forever_note#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
