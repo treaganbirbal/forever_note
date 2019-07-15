@@ -1,0 +1,19 @@
+{
+  "name": "forevernote",
+  "version": "1.0.0",
+  "description": "a clone of Evernote using basic crud methods with user auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/treaganbirbal/forever_note.git"
+  },
+  "author": "Treagan Birbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/treaganbirbal/forever_note/issues"
+  },
+  "homepage": "https://github.com/treaganbirbal/forever_note#readme"
+}
