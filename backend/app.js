@@ -7,6 +7,7 @@ const session = require('express-session')
 const passport = require('passport')
 
 var app = express();
+const port = 4001;
 
 const users = require('./routes/users.js');
 // const notes = require('./routes/notes.js');
@@ -37,6 +38,10 @@ app.use('/users', users);
 // app.use('/notes', notes);
 // app.use('/notebooks', notebooks)
 
+app.listen(port, () => {
+  console.log("listening on: ", port)
+})
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
@@ -52,5 +57,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.send('error');
 });
+
 
 module.exports = app;
