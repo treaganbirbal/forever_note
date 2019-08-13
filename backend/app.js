@@ -8,7 +8,7 @@ const passport = require('passport')
 
 var app = express();
 
-// const users = require('./routes/users.js');
+const users = require('./routes/users.js');
 // const notes = require('./routes/notes.js');
 // const notebooks = require('./routes/notebooks.js')
 
@@ -33,7 +33,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-// app.use('/users', users);
+app.use('/users', users);
 // app.use('/notes', notes);
 // app.use('/notebooks', notebooks)
 
