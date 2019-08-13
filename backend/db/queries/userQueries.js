@@ -1,5 +1,5 @@
 const db = require('../../db/index.js')
-const { addNewNotebook } = require('./noteBookQueries')
+// const { addNewNotebook } = require('./noteBookQueries')
 
 const authHelper = require('../../auth/helpers.js')
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require("../db/queries/usersqueries")
+const db = require("../db/queries/userQueries")
 const passport = require("../auth/local")
 const { loginRequire } = require('../auth/helpers')
 const {getAllUsers, getSingleUser, updateUser, createUser, deleteUser, isLoggedIn, loginUser, logoutUser} = require('../db/queries/usersqueries.js');
