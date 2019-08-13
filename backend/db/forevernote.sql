@@ -24,3 +24,5 @@ CREATE TABLE notes (
   body TEXT,
   notebook_id INTEGER REFERENCES note_books(id) ON DELETE CASCADE
 );
+
+INSERT INTO users(name, email, password_digest)VALUES('trey', 'trey123@gmail.com', '1234')

@@ -8,9 +8,9 @@ const passport = require('passport')
 
 var app = express();
 
-const users = require('./routes/users.js');
-const notes = require('./routes/notes.js');
-const notebooks = require('./routes/notebooks.js')
+// const users = require('./routes/users.js');
+// const notes = require('./routes/notes.js');
+// const notebooks = require('./routes/notebooks.js')
 
 
 app.use(logger('dev'));
@@ -33,9 +33,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 
-app.use('/users', users);
-app.use('/notes', notes);
-app.use('/notebooks', notebooks)
+// app.use('/users', users);
+// app.use('/notes', notes);
+// app.use('/notebooks', notebooks)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
